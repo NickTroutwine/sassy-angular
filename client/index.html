@@ -1,11 +1,9 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Test Your Logic</title>
-  <link rel="shortcut icon" href="css/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="css/favicon.ico" type="image/x-icon">
-  <meta name= "viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/tyl.css" rel="stylesheet">
+  <title></title>
+
+  
   <link href="lib/bootstrap/dist/css/bootstrap.min.css">
   <base href="/">
 
@@ -16,9 +14,21 @@
 <script src="./js/main.js"></script>
 <script src="./js/num-controller.js"></script>
 <script src="./js/docs-controller.js"></script>
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a ui-sref="home">Home</a>
+          </li>
+          <li>
+            <a ui-sref="angular">angular</a>
+          </li>
+          <li>
+            <a ui-sref="sass">sass</a>
+          </li>
+        </ul>
 <body ng-app="main">
-  <div class="container" style="margin: 45px 45px">
-  <br><br><br><br><br><br><br>
+  <div class="container">
+
   <div ui-view ></div> 
 </div>
 </body> 

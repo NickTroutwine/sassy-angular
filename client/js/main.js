@@ -11,12 +11,18 @@
         controller: "NumController",
         controllerAs: "numCtrl"
       })
-      .state('results', {
-        url: '/results',
-        templateUrl: 'pages/results.html',
+      .state('angular', {
+        url: '/angular',
+        templateUrl: 'pages/angulardocs.html',
         controller: 'DocsController',
         controllerAs: 'docsCtrl'
       })
+      .state('sass', {
+        url: '/sass',
+        templateUrl: 'pages/sassdocs.html',
+        
+      })
+      
       // enables us to remove the # in the url
     $urlRouterProvider.otherwise('/');
     $locationProvider.html5Mode({
