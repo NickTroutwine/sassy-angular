@@ -1,0 +1,26 @@
+{
+  "name": "Econgame",
+  "version": "1.0.0",
+  "description": "an economics game to test logic",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.12.4",
+    "faye-websocket": "^0.10.0",
+    "mongoose": "^4.0.7",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
