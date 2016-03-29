@@ -8,8 +8,8 @@
       .state('home', {
         url: '/',
         templateUrl: 'pages/home.html',
-        controller: "NumController",
-        controllerAs: "numCtrl"
+        controller: "FactController",
+        controllerAs: "factCtrl"
       })
       .state('angular', {
         url: '/angular',

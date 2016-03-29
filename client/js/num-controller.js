@@ -3,8 +3,8 @@ NumController.$inject = ['$http', '$state'];
 
 function NumController($http, $state) {
   var self = this;
-  this.newUser = {};
 
   this.addUser = function() {
     
+}
 }
