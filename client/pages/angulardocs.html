@@ -1,16 +1,75 @@
-
-
-<div class="row">
+<div class = ''>
   
-  <div ng-bind-html-unsafe="players" ># of Opponents: {{players}}</div>
-  <h1>Tower of Logic</h1>
-
-  <div ng-init="docsCtrl.getDocs()" class = 'col-md-6' style = "text-align: left">
-    <div ng-bind-html-unsafe="sum" value= "The Half of All Averages is: ">Average: {{sum}}</div>
-    <div ng-bind-html-unsafe="winnerName">Winner: {{winnerName}} </div>
-    <div ng-bind-html-unsafe="winnerGuess">With a Guess of: {{winnerGuess}}</div>
+  <div class = ''>
+  <h2>Sassy Angular Facts!!!</h2>
+   <div ng-bind-html-unsafe="factText" style='height: 40px;'>{{factText}} </div>
+<button style="margin-top: 20px;" ng-click="factCtrl.getFact()">Get Yo Facts</button>
   </div>
-<!--   <div class= 'col-md-6'>
-  <button style="color: black" ng-click="docsCtrl.getDocs()">Tower of Might</button>
-  </div> -->
+
+
 </div>
+<div>
+
+  <div>
+      <h2>Directives</h2>
+      <p>These are the fun little extension to Html that Angular gives us. These start with ng and are attach a special behavior to the elements. We use this on the home page to call are random function and to bind the variables that are the facts to the element.</p>
+  </div>
+
+
+  <div>
+      <h2>Controller</h2>
+      <p>Where the logic goes in the app. This is going to be your powerhouse and where your app will get functionallity. We use this in the homepage to make a simple Math.random() function to decide which fact show.</p>
+  </div>
+
+
+
+  <div>
+      <h2>Services</h2>
+      <p>These are to modularize your code and keep the controllers clean. We store functions and data we may use over again in Services. In this app we aren't using any custom Services but use some of Angulars built in handy Services. We use the $locationProvider to set the mode to Html5 and $urlProvider to / so that the # is removed in our url.</p>
+  </div>
+
+
+  <div>
+      <h2>Scope</h2>
+      <p>This is simply the realm of relevancy. This is where information has value and can be manipulated to form our app.</p>
+  </div>
+
+
+
+  <div>
+      <h2>Expression</h2>
+      <p>How data in the scope is displayed as the html elements. We use this as basically a dynamic placeholder in this app to grab the different facts to display.</p>
+  </div>
+
+
+  <div>
+      <h2>Veiw</h2>
+      <p>Simply what we are seeing in this app. This is just the user interface.</p>
+  </div>
+
+
+
+
+  <div>
+      <h2>Data Binding</h2>
+      <p>Angular utilizes two way data binding meaning we can take information from the model and veiw and pass them back and forth. Here you can see it in this addition text box. You can inter the values and it will calculate it as you go.</p>
+  </div>
+ <div ng-app ng-init="num1=1;num2=2">
+
+  <div>
+   <input type="number" min="0" ng-model="num1">+
+  
+   <input type="number" min="0" ng-model="num2">
+ 
+    = {{num1 + num2}}
+  </div>
+</div>
+
+  <div>
+      <h2>Dependency Injecector</h2>
+      <p>How Angular wires its modulars together to be one app. This allows us to use certain chuncks of logic and data only when needed.</p>
+  </div>
+
+
+
+<div>

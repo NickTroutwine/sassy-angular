@@ -1,1 +1,26 @@
+$my_color: green;
+
+.nav {
+	background-color: red;
+	height: 80px;
+	ul{
+	  
+    float: right;
+    height: 60px;
+    margin-top: 25px;
+		li{
+			display: inline-block;
+			height: 40px;
+      padding: 10px;
+      text-decoration: none;
+      font: 20px;
+      color: white;
+	  	a{
+	      background-color: $my_color;
+	    }
+	  }
+  }
+}
+
+
 

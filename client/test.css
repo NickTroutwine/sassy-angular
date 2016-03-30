@@ -1,1 +1,18 @@
+.nav {
+  background-color: red;
+  height: 80px; }
+  .nav ul {
+    float: right;
+    height: 60px;
+    margin-top: 25px; }
+    .nav ul li {
+      display: inline-block;
+      height: 40px;
+      padding: 10px;
+      text-decoration: none;
+      font: 20px;
+      color: white; }
+      .nav ul li a {
+        background-color: green; }
 
+/*# sourceMappingURL=test.css.map */

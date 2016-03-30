@@ -7,15 +7,14 @@
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'pages/home.html',
-        controller: "FactController",
-        controllerAs: "factCtrl"
+        templateUrl: 'pages/home.html'
+       
       })
       .state('angular', {
         url: '/angular',
         templateUrl: 'pages/angulardocs.html',
-        controller: 'DocsController',
-        controllerAs: 'docsCtrl'
+         controller: "FactController",
+        controllerAs: "factCtrl"
       })
       .state('sass', {
         url: '/sass',
