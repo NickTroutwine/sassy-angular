@@ -23,6 +23,13 @@ body {
         font-size: 20px;
         color: white; }
 
+.footer {
+  margin-top: 30px;
+  background-color: #2b2b2b; }
+  .footer a {
+    color: white;
+    text-decoration: none; }
+
 .homeHero img {
   width: 80%;
   margin-left: 10%; }
